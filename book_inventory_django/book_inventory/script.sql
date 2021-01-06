@@ -1,0 +1,6 @@
+
+USE `mysql`;
+GRANT ALL PRIVILEGES ON books.* TO 'django'@'localhost' IDENTIFIED BY '123'
+
+WITH GRANT OPTION;
+FLUSH PRIVILEGES;
